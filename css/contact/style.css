@@ -1,0 +1,145 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	border-bottom: 5px solid #e4e4e4;
+}
+
+.head {
+
+}
+
+.head img {
+	padding: 40px 0px;
+}
+
+.head nav {
+	
+}
+
+.head ul {
+	text-decoration: none;
+	font-size: 18px;
+	color: #161616;
+}
+
+.head li {
+    display: inline-block;
+    margin: 47px 20px;
+}
+
+.head a {
+    text-decoration: none;
+    color: #161616;
+}
+/*Header section ends*/
+
+
+/*Banner section starts*/
+.banner-two {
+	background: url(../../img/contact/banner.png)no-repeat;
+	background-size: cover;
+}
+
+.banner-two h2 {
+	font-size: 53px;
+	font-style: bold;
+	color: #fff;
+	padding-top: 60px;
+}
+
+.banner-two img {
+	padding-top: 45px;
+}
+
+.banner-two p {
+	font-size: 18px;
+	color: #fff;
+	padding: 28px 0px 40px;
+}
+
+.parent {
+	position: relative;
+}
+
+.child-one {
+	position: absolute;
+	top: 10%;
+}
+
+.child-two {
+	position: absolute;
+	top: 10%;
+	left: 25%;
+} 
+/*Banner section ends*/
+
+
+/*Form section starts*/
+.form {
+    padding-bottom: 55px;
+}
+
+.form label {
+    color: #fff;
+}
+
+.form-control {
+    height: 65px;
+    width: 455px;
+    background: #ff6258;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.form button {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+}
+/*Form section starts*/
+
+
+/*Footer section starts*/
+footer {
+	background: url(../../img/contact/footer.png)no-repeat;
+	background-size: cover;
+}
+
+footer p {
+	color: #fff;
+	text-align: center;
+	padding: 15px 0px;
+}
+/*Footer section ends*/
+
+
+
+
+
+/*Media query*/
+@media (max-width: 500px) {
+	.head li {
+    display: block;
+    margin: 0 auto;
+	}
+
+	.head nav {
+		margin: 10px 0px;
+	}
+
+	.about h2 {
+	text-align: center;
+    font-size: 53px;
+    font-weight: 300;
+    padding-bottom: 30px;
+	}
+
+	.btn-cstm {
+		display: block;
+		margin: 0 auto;
+	}
+}

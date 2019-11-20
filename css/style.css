@@ -1,0 +1,262 @@
+/*Header section starts*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background: url(../img/homepage/banner.png)no-repeat;
+	background-size: cover;
+}
+
+.banner {
+	background-color: #16161666;
+}
+
+.head img {
+	padding: 65px 0px;
+}
+
+.head nav {
+    margin: 72px 0px;
+    color: #fff;
+}
+
+.head ul {
+	list-style: none;
+	font-size: 33px;
+}
+
+.head li {
+    display: inline-block;
+    margin: 0px 19px;
+}
+
+.head a {
+	color: #fff;
+}
+
+.head h2 {
+    padding: 25px 50px;
+    background-color: #16161691;
+    color: #fff;
+    font-size: 47px;
+    margin: 50px 0px 20px;
+}
+
+.head p {
+    color: #fff;
+    padding-bottom: 75px;
+    font-size: 18px;
+}
+
+span {
+    border-bottom: 2px solid #fff;
+    display: block;
+    width: 25px;
+}
+
+.head button {
+    padding: 20px 100px;
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 45px 0px 288px;
+}
+
+.head button:hover {
+	color: #161616;
+	background: #fff;
+	transition: 0.8s ease;
+}
+/*Header section ends*/
+
+
+/*Cars section starts*/
+.cars {
+    background-color: #f6f6f6; 
+}
+
+.cars span {
+    border-bottom: 2px solid #000;
+    display: block;
+    width: 25px;
+    color: #161616;
+    margin: 40px 0px 50px;
+}
+
+.cars h2 {
+    padding-top: 210px;
+    font-size: 50px;
+}
+
+.cars p {
+    font-size: 18px;
+    width: 76%;
+    padding-bottom: 10px;
+}
+
+.parent {
+	position: relative;
+}
+
+.child-one {
+    position: absolute;
+    top: 35%;
+    left: -25%;
+}
+
+.child-two {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+} 
+
+.img-cstm {
+    height: 460px;
+}
+/*Cars section ends*/
+
+
+/*Five-cars section starts*/
+.five-cars {
+	background-color: #28282e;
+	position: relative;
+}
+
+.five-cars h2 {
+	font-size: 53px;
+	color: #fff;
+	padding-top: 105px;
+	font-style: bold;
+}
+
+.five-cars p {
+	padding-top: 55px;
+	font-size: 18px;
+	color: #fff;
+	width: 70%;
+	padding-bottom: 30px;
+}
+
+.five-cars button {
+	padding: 20px 60px;
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin: 45px 0px 150px;
+}
+
+.five-cars button:hover {
+	color: #161616;
+	background: #fff;
+	transition: 0.8s ease;
+}
+
+.img-cstmt {
+    margin: 220px -60px;
+}
+
+
+footer {
+	background: url(../img/homepage/footer.png)no-repeat;
+	background-size: cover;
+}
+
+footer p {
+	text-align: center;
+	padding: 30px 0px;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+
+
+/*Media query starts*/
+@media (max-width: 500px) {
+	.img-center {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.head li {
+	    margin: 0 auto;
+	    display: block;
+	    font-size: 18px;
+	}
+
+	.head img {
+		padding: 10px 0px;
+	}
+
+	.head nav {
+		margin: 10px 0px;
+	}
+
+	.head h2 {
+		font-size: 35px;
+	}
+
+	.head p {
+    text-align: center;
+    padding: 10px 0px;
+	}
+
+	.head span {
+		margin: 0 auto;
+	}
+
+	.head button {
+		display: block;
+		margin: 50px auto;
+	}
+	/*Header section ends*/
+
+
+	/*Cars section starts*/
+	.cars span {
+    display: block;
+    margin: 10px auto;
+	}
+
+	.cars h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0px;
+    padding: 0px;
+	}
+
+	.cars p {
+    text-align: center;
+    width: 100%;
+	}
+	/*Cars section ends*/
+
+
+	/*Five-cars section starts*/
+	.five-cars h2 {
+		text-align: center;
+	}
+
+	.five-cars p {
+		text-align: center;
+		width: 100%;
+	}
+
+	span {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.five-cars button {
+		display: block;
+		margin: 0 auto;
+	}
+
+	/*Five-cars section ends*/
+
+}

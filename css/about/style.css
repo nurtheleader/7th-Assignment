@@ -1,0 +1,109 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	border-bottom: 5px solid #e4e4e4;
+}
+
+.head {
+
+}
+
+.head img {
+	padding: 40px 0px;
+}
+
+.head nav {
+	
+}
+
+.head ul {
+	text-decoration: none;
+	font-size: 18px;
+	color: #161616;
+}
+
+.head li {
+    display: inline-block;
+    margin: 47px 20px;
+}
+
+.head a {
+    text-decoration: none;
+    color: #161616;
+}
+/*Header section ends*/
+
+
+/*About section starts*/
+.about {
+	margin: 60px 0px;
+}
+
+.about h2 {
+    font-size: 53px;
+    font-weight: 600;
+    padding-bottom: 90px;
+}
+
+.about p {
+	
+}
+
+.parent p {
+    padding-top: 71px;
+    margin: 0px 0px 0px 70px;
+}
+
+.img-one {
+    position: absolute;
+    left: 20%;
+}
+
+.img-two {
+	
+}
+
+.img-three {
+    position: absolute;
+    top: 30px;
+    left: 190px;
+}
+/*About section ends*/
+
+
+/*Footer section starts*/
+footer {
+	background: url(../../img/about/footer.png)no-repeat;
+	background-size: cover;
+}
+
+footer p {
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+}
+/*Footer section ends*/
+
+
+/*Media query*/
+@media (max-width: 500px) {
+	.head li {
+    display: block;
+    margin: 0 auto;
+	}
+
+	.head nav {
+		margin: 10px 0px;
+	}
+
+	.about h2 {
+	text-align: center;
+    font-size: 53px;
+    font-weight: 300;
+    padding-bottom: 30px;
+	}
+}
